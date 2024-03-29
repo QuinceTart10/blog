@@ -2,11 +2,12 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/blog/assets/css/styles.css">
     </head>
     <body>
         {% include navigation.html %}
-        {{ content }}
+        <div class="content">{{ content }}</div>
     </body>
 </html>
