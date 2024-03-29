@@ -9,6 +9,20 @@
 html {
     background: #1a1a1a;
 }
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 15px;
+    font-size: larger;
+}
+nav > a {
+    font-family: league_spartanbold;
+    text-decoration: none;
+}
 * {
     color: white;
     font-family: sans-serif;
