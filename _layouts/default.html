@@ -23,8 +23,8 @@
         {% endif %}
         <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
         <meta property="og:image" content="{{ site.baseurl }}/assets/pfp.png">
-        {% if page.title %}
-            <meta property="og:description" content="{{ post.excerpt }}">
+        {% if page.description %}
+            <meta property="og:description" content="{{ page.description }}">
         {% else %}
             <meta property="og:description" content="{{ site.description }}">
         {% endif %}

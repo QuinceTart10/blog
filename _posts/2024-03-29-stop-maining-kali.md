@@ -1,5 +1,6 @@
 ---
 title: STOP maining Kali Linux
+description: This article goes over why you shouldn't use Kali as a daily driver and what are the alternatives
 author: martin
 ---
 
