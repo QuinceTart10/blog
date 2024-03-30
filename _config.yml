@@ -1,3 +1,6 @@
+baseurl: /blog
+title: QuinceTart10's blog
+description: A small blog written by QuinceTart10
 defaults:
   - scope:
       path: ""

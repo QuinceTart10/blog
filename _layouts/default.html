@@ -4,7 +4,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="/blog/assets/css/styles.css">
+        <link rel="icon" href="{{ site.baseurl }}/assets/pfp.png" type="image/x-icon">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+        {% if page.title %}
+            <meta property="og:title" content="{{ page.title }}">
+        {% else %}
+            <meta property="og:title" content="{{ site.title }}">.
+        {% endif %}
+        <meta property="og:site_name" content="{{ site.title }}">
+        {% if page.title %}
+            <meta property="og:type" content="article">
+        {% else %}
+            <meta property="og:type" content="website">
+        {% endif %}
+        <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+        <meta property="og:image" content="{{ site.baseurl }}/assets/pfp.png">
+        {% if page.title %}
+            <meta property="og:description" content="{{ post.excerpt }}">
+        {% else %}
+            <meta property="og:description" content="{{ site.description }}">
+        {% endif %}
     </head>
     <body>
         {% include navigation.html %}
