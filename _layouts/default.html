@@ -3,7 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>{{ page.title }}</title>
+        {% if page.title %}
+            <title>{{ page.title }}</title>
+        {% else %}
+            <title>{{ site.title }}</title>
+        {% endif %}
         <link rel="icon" href="{{ site.baseurl }}/assets/pfp.png" type="image/x-icon">
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
         {% if page.title %}
