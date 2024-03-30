@@ -17,7 +17,7 @@
             <meta property="og:title" content="{{ site.title }}">
         {% endif %}
         <meta property="og:site_name" content="{{ site.title }}">
-        {% if page.title %}
+        {% if page.layout == "post" %}
             <meta property="og:type" content="article">
         {% else %}
             <meta property="og:type" content="website">
