@@ -10,6 +10,7 @@
         {% endif %}
         <link rel="icon" href="{{ site.baseurl }}/assets/pfp.png" type="image/x-icon">
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+        {% feed_meta %}
         {% if page.title %}
             <meta property="og:title" content="{{ page.title }}">
         {% else %}
