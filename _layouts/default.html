@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
@@ -9,6 +9,11 @@
             <title>{{ site.title }}</title>
         {% endif %}
         <link rel="icon" href="{{ site.baseurl }}/assets/pfp.png" type="image/x-icon">
+        {% if page.description %}
+            <meta name="description" content="{{ page.description }}">
+        {% else %}
+            <meta name="description" content="{{ site.description }}">
+        {% endif %}
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
         {% feed_meta %}
         {% if page.title %}
