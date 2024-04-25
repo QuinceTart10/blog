@@ -31,10 +31,16 @@ nav > a {
     color: white;
     font-family: sans-serif;
 }
-h1,h2 {
+h1,h2,h3,h4 {
     font-family: league_spartanbold;
     margin: 0;
 }
 .post-meta {
     font-weight: 600;
+}
+code {
+    background: #222222;
+    font-family: monospace;
+    padding: 1px 3px;
+    border-radius: 5px;
 }
