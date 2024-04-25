@@ -30,6 +30,12 @@ nav > a,.post-title {
     color: white;
     text-decoration: none;
 }
+.post-title {
+    font-size: 16pt;
+}
+.post-meta {
+    font-weight: 600;
+}
 .content {
     padding: 15px;
     margin: auto;
@@ -38,9 +44,6 @@ nav > a,.post-title {
 h1,h2,h3,h4 {
     font-family: league_spartanbold;
     margin: 0;
-}
-.post-meta {
-    font-weight: 600;
 }
 code {
     background: #222222;
