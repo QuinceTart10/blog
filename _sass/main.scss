@@ -12,6 +12,13 @@ html {
 body {
     margin: 0;
 }
+* {
+    color: white;
+    font-family: sans-serif;
+}
+a {
+    color: lightgreen;
+}
 nav {
     width: calc(100% - 30px);
     padding: 15px;
@@ -20,16 +27,13 @@ nav {
 }
 nav > a {
     font-family: league_spartanbold;
+    color: white;
     text-decoration: none;
 }
 .content {
     padding: 15px;
     margin: auto;
     max-width: 720px;
-}
-* {
-    color: white;
-    font-family: sans-serif;
 }
 h1,h2,h3,h4 {
     font-family: league_spartanbold;
