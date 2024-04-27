@@ -10,6 +10,10 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "googlef43f6ccad8783b2f.html"
+    values:
+      sitemap: false
 plugins:
   - jekyll-feed
   - jekyll-sitemap
