@@ -8,13 +8,13 @@
         {% else %}
             <title>{{ site.title }}</title>
         {% endif %}
-        <link rel="icon" href="{{ site.baseurl }}/assets/pfp.png" type="image/x-icon">
+        <link rel="icon" href="/assets/pfp.png" type="image/x-icon">
         {% if page.description %}
             <meta name="description" content="{{ page.description }}">
         {% else %}
             <meta name="description" content="{{ site.description }}">
         {% endif %}
-        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+        <link rel="stylesheet" href="/assets/css/styles.css">
         {% feed_meta %}
         {% if page.title %}
             <meta property="og:title" content="{{ page.title }}">
@@ -27,8 +27,8 @@
         {% else %}
             <meta property="og:type" content="website">
         {% endif %}
-        <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-        <meta property="og:image" content="{{ site.baseurl }}/assets/pfp.png">
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+        <meta property="og:image" content="/assets/pfp.png">
         {% if page.description %}
             <meta property="og:description" content="{{ page.description }}">
         {% else %}

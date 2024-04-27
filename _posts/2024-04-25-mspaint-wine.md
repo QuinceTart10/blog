@@ -41,7 +41,7 @@ Now open up Resource Hacker and load `mspaint.exe` in it. Then open up the Actio
 
 A dialog asking you which resources it should import pops up. Just press "Check/Uncheck All" and press Import. Now choose "Save As" from the File menu and save it to a new folder.
 
-![Screenshot of a Resource Hacker dialog asking which resources it should import]({{ site.baseurl }}/assets/attachments/Screenshot_20240424_080448.png)
+![Screenshot of a Resource Hacker dialog asking which resources it should import](/assets/attachments/Screenshot_20240424_080448.png)
 
 After you're done with that, just redo the steps above with `UIRibbon.dll` and `UIRibbon.dll.mui`. Now you have your very own modified Paint and UIRibbon files.
 
