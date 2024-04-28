@@ -12,6 +12,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      image: /assets/pfp.png
   - scope:
       path: "googlef43f6ccad8783b2f.html"
     values:
