@@ -4,7 +4,6 @@
         url('/assets/leaguespartan-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 html {
     background: #1a1a1a;
@@ -15,6 +14,13 @@ body {
 * {
     color: white;
     font-family: sans-serif;
+}
+h1,h2,h3,h4 {
+    font-family: league_spartanbold;
+    margin: 0;
+}
+p {
+    line-height: 28px;
 }
 a {
     color: lightgreen;
@@ -41,15 +47,12 @@ nav > a,.post-title {
     margin: auto;
     max-width: 720px;
 }
-h1,h2,h3,h4 {
-    font-family: league_spartanbold;
-    margin: 0;
-}
 code {
     background: #222222;
     font-family: monospace;
     padding: 1px 3px;
     border-radius: 5px;
+    letter-spacing: -0.25px;
 }
 img {
     max-width: 100%;
