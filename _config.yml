@@ -1,5 +1,7 @@
 title: QuinceTart10's blog
 description: A small blog written by QuinceTart10
+logo: /assets/pfp.png
+google_site_verification: XFGrFJ2fqBhNcjcwKyouwLk7209QxI94SDqjUn2D5Ug
 defaults:
   - scope:
       path: ""
@@ -17,3 +19,4 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
