@@ -12,10 +12,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-      image:
-        path: /assets/pfp.png
-        height: 100
-        width: 100
   - scope:
       path: "googlef43f6ccad8783b2f.html"
     values:
