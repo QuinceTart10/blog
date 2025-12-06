@@ -53,4 +53,4 @@ After running Paint, right-click on the Ribbon and click on "Show Quick Access T
 
 ## Final note
 
-If you have any questions, improvements or anything, don't hesitate to hit me up on [my Discord server](https://discord.gg/b2fwXsBsak) or through [email](mailto:me@quincetart10.is-a.dev). I'd really appreciate if somebody could help me fix any of the issues.
+If you have any questions, improvements or anything, don't hesitate to hit me up on [Discord](https://discord.com/users/862644161156218891) or through [email](mailto:me@quincetart10.is-a.dev). I'd really appreciate if somebody could help me fix any of the issues.
