@@ -1,5 +1,5 @@
 ---
-author: martin
+author: quince
 title: How I managed to run Windows 7 Paint under Wine
 description: This post goes over how and why I've ran Microsoft Paint under Wine
 motd: we got mspaint on linux before gta 6 woo

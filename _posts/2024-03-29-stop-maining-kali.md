@@ -1,7 +1,7 @@
 ---
 title: STOP maining Kali Linux
 description: This article goes over why you shouldn't use Kali as a daily driver and what are the alternatives
-author: martin
+author: quince
 ---
 
 Over my time on the internet I've noticed a lot of newbies trying out Linux using Kali as their first distro, probably because it's the *"l33t h4xx0r linux"*, which is true, but not in the way that you should use it as a regular user.
